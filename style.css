@@ -15,7 +15,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 nav .brand-name{
@@ -27,6 +27,7 @@ nav .brand-name p{
     font-size: 32px;
     font-weight: 500;
     font-family: 'Playfair Display', serif;
+    color:#583101;
 }
 
 nav .list-items{
@@ -36,6 +37,8 @@ nav .list-items{
     font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    color: #121619;
+
 }
 
 nav .list-items button{
@@ -53,4 +56,45 @@ nav ul{
     gap:48px
 }
 
+.intro{
+    /* background-color: aqua; */
+    height: 750px;
+    width: 100%;
+    background-image: url('images/background.png');
+    color: #FFEDD8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.intro .introContainer{
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.intro .introContainer h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+}
+
+.intro .introContainer h1{
+    font-size: 56px;
+    font-weight: 500;
+    font-family: 'Playfair Display',
+}
+
+.intro .introContainer button{
+    width: 201px;
+    height: 62px;
+    border: 1px solid #FFEDD8;
+    outline: none;
+    background-color: transparent;
+    color: #FFEDD8;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
 
