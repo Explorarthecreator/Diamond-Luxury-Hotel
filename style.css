@@ -65,6 +65,7 @@ nav ul{
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin-bottom: 150px;
 }
 .intro .introContainer{
     width: 55%;
@@ -98,3 +99,65 @@ nav ul{
     font-family: 'Poppins', sans-serif;
 }
 
+.intro .check-availability{
+    height: 160px;
+    background-color: #583101;
+    width: 70%;
+    /* margin: auto; */
+    position: absolute;
+    left: 206px;
+    top: 785px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.select-date{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.select-date p{
+    text-align: left;
+    font-size: 15px;
+}
+#select-day{
+    height: 48px;
+    width: 55px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #FFEDD8;
+    /* border: 1px solid #FFEDD8; */
+    /* text-align: center; */
+    outline: none;
+    border: none;
+}
+#select-month{
+    height: 48px;
+    width: 130px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #FFEDD8;
+    /* border: 1px solid #FFEDD8; */
+    /* text-align: center; */
+    outline: none;
+    border: none;
+}
+
+.check-availability button{
+    width: 221px;
+    height: 62px;
+    border: 1px solid #FFEDD8;
+    outline: none;
+    background-color: transparent;
+    color: #FFEDD8;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us{
+    height: 714px;
+    width: 85%;
+    margin: auto;
+    background-color: aqua;
+}
