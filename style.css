@@ -57,7 +57,6 @@ nav ul{
 }
 
 .intro{
-    /* background-color: aqua; */
     height: 750px;
     width: 100%;
     background-image: url('images/background.png');
@@ -103,7 +102,6 @@ nav ul{
     height: 160px;
     background-color: #583101;
     width: 70%;
-    /* margin: auto; */
     position: absolute;
     left: 206px;
     top: 785px;
@@ -126,8 +124,6 @@ nav ul{
     font-size: 20px;
     background-color: transparent;
     color: #FFEDD8;
-    /* border: 1px solid #FFEDD8; */
-    /* text-align: center; */
     outline: none;
     border: none;
 }
@@ -137,8 +133,6 @@ nav ul{
     font-size: 20px;
     background-color: transparent;
     color: #FFEDD8;
-    /* border: 1px solid #FFEDD8; */
-    /* text-align: center; */
     outline: none;
     border: none;
 }
@@ -169,7 +163,6 @@ nav ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     gap: 30px;
 }
 .about-us .details .details-cotainer{
@@ -267,8 +260,6 @@ hr{
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
-
 #content{
     max-width: 100%;
     display: grid;
@@ -345,7 +336,7 @@ hr{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .offerDescription{
@@ -386,7 +377,7 @@ hr{
     margin-left: 15px;
 }
 .discount p{
-    width: 90%;
+    width: 100%;
     font-size: 24px;
 }
 .discount span{
@@ -401,7 +392,6 @@ hr{
     margin: auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     gap: 20px;
 }
 .spaces h1{
@@ -410,6 +400,8 @@ hr{
 .spaces p{
     width: 55%;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
 }
 .spacenav{
     font-size: 24px;
@@ -441,12 +433,17 @@ hr{
     gap: 15px;
     margin-bottom: 20px;
 }
+.faq-head .head h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+}
 .faq h1{
     font-size: 40px;
 }
 .faq .des{
     width: 55%;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .questions-container{
@@ -462,6 +459,7 @@ hr{
 }
 .questions-container .questions p{
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .questions-container button{
     width: 161px;
@@ -472,6 +470,7 @@ hr{
     font-size: 20px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+    border: none;
 }
 
 .morequestion{
@@ -508,11 +507,48 @@ footer{
     display: block;
     margin-bottom: 10px;
 }
+.footer-wrapper .details h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+}
+.footer-wrapper details i{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
 .footer-wrapper .links{
     display: flex;
     width: 30%;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
 }
+.footer-wrapper .links h4{
+    font-size: 24px;
+}
+
 .links h4{
     margin-bottom: 20px;
+}
+
+.footerIcons{
+    justify-self: center;
+    align-self: center;
+    color: #dd7732;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerContainer{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.footerIcons a {
+    color: #FFEDD8;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
