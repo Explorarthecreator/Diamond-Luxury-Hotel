@@ -7,7 +7,9 @@
 body{
     background-color : #ffedd8;
 }
-
+.hidePicture{
+    display: none;
+}
 nav{
     height: 62px;
     width: 85%;
@@ -433,11 +435,26 @@ hr{
     display: flex;
     justify-content: space-between;
 }
-.spacenav div:first-child{
-    border-bottom: 1px solid #583101;
+.spacenav .acti{
+    border-bottom: 2px solid #583101;
+}
+.mute{
+    border: none;
 }
 .spacenav div{
     height: 36px;
+}
+.spacenav .cursor{
+    cursor: default;
+}
+.spacenav .cursor:hover{
+    cursor: pointer;
+}
+.show{
+    display: block;
+}
+.hide{
+    display: none;
 }
 
 .spacepics{
@@ -445,8 +462,14 @@ hr{
     display: flex;
     justify-content: space-between;
 }
-
-
+/* .dimension{
+    display: flex;
+    justify-content: space-between;
+} */
+.dimension img{
+    width: 429px;
+    height: 609px;
+}
 .faq{
     width: 85%;
     margin: auto;
@@ -586,4 +609,10 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.dimension div{
+    /* background-color: #583101; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
