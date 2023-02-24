@@ -485,32 +485,76 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim, risus dictum sed sit. Suspendisse congue est pellentesque nec. Sed tincidunt aliquam morbi diam faucibus sodales. Auctor lacus, sed amet velit leo.
         </p>
         <div class="spacenav">
-            <div>
+            <div id="dining" class="acti cursor" onclick="changeDining()">
                 Dining & Restaurant
             </div>
-            <div>
+            <div id="parking" class="cursor" onclick="changeParking()" onmouseleave="reverse()">
                 Parking Space
             </div>
-            <div>
+            <div id="spa" class="cursor" onclick="changeSpa()">
                 Spa
             </div>
-            <div>
+            <div id="resort" class="cursor" onclick="changeResort()">
                 Resort and Pool
             </div>
-            <div>
+            <div id="casino" class="cursor" onclick="changeCasino()">
                 Casino
             </div>
-            <div>
+            <div id="bedroom" class="cursor" onclick="changeBed()">
                 Bedrooms
             </div>
-            <div>
+            <div id="event" class="cursor" onclick="changeEvents()">
                 Event Spaces
             </div>
         </div>
-        <div class="spacepics" data-aos="fade-up">
-            <img src="images/image 125.png" alt="">
-            <img src="images/image 123.png" alt="">
-            <img src="images/image 124.png" alt="">
+        <div class="spacepics dimension" data-aos="fade-up">
+            <div>
+                <img src="images/image 125.png" alt="">
+                <img src="images/image 123.png" alt="">
+                <img src="images/image 124.png" alt="">
+            </div>
+        </div>
+        <div class="hide dimension" id="parkingPics" data-aos="fade-up">
+            <div>
+                <img src="images/image 125.png" alt="">
+                <img src="images/image 124.png" alt="">
+                <img src="images/image 124.png" alt="">
+            </div>
+        </div>
+        <div class="hide dimension" id="spaPics" data-aos="fade-up">
+            <div>
+                <img src="images/spa1.jpg" alt="">
+                <img src="images/spa2.jpg" alt="">
+                <img src="images/spa3.jpg" alt="">
+            </div>
+        </div>
+        <div class="hide dimension" id="resortPics" data-aos="fade-up">
+            <div>
+                <img src="images/resort1.jpg" alt="">
+                <img src="images/resort2.jpg" alt="">
+                <img src="images/resort3.jpg" alt="">
+            </div>
+        </div>
+        <div class="hide dimension" id="casinoPics" data-aos="fade-down">
+            <div>
+                <img src="images/casino1.jpg" alt="">
+                <img src="images/casino2.jpg" alt="">
+                <img src="images/casino3.jpg" alt="">
+            </div>
+        </div>
+        <div class="hide dimension" id="bedPics" data-aos="fade-down">
+            <div>
+                <img src="images/bed1.jpg" alt="">
+                <img src="images/bed2.jpg" alt="">
+                <img src="images/bed3.jpg" alt="">
+            </div>
+        </div>
+        <div class="hide dimension" id="eventPics" data-aos="fade-down">
+            <div>
+                <img src="images/event1.jpg" alt="">
+                <img src="images/event2.jpg" alt="">
+                <img src="images/event3.jpg" alt="">
+            </div>
         </div>
     </section>
 
@@ -638,6 +682,7 @@
 
     <script src="https://kit.fontawesome.com/4b654629d7.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
     <script>
         AOS.init(
             {
