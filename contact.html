@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Poppins&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="mobile">
+        <div class="mobileContainer" data-aos="zoom-in">
+            <h3>
+                Thank you for visiting this link
+            </h3>
+
+            <h1>
+                It is not mobile responsive at the moment. Thank you
+            </h1>
+
+        </div>
+    </div>
+
+    <nav>
+        <div class="brand-name">
+            <p>
+                Diamond Luxury
+            </p>
+        </div>
+        <div class="list-items">
+            <ul>
+                <li>
+                    Home
+                </li>
+                <li>
+                    About Us
+                </li>
+                <li>
+                    Our Services
+                </li>
+                <li>
+                    Blog
+                </li>
+                <li class="active">
+                    Contact Us
+                </li>
+            </ul>
+            <button>
+                Book Now here
+            </button>
+        </div>
+    </nav>
+
+    <section class="contact">
+        <div class="contactDetails">
+            <h1>
+                Let's Discuss your booking
+            </h1>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac felis tortor tristique massa.
+            </p>
+
+            <h3>
+                Our Hotel Locations
+            </h3>
+
+            <div>
+                <p>
+                    San Francisco, Santa Clara, Alameda, San Mateo
+                </p>
+                <p>
+                    500 Terry Francois Street San Francisco, CA 94158
+                </p>
+            </div>
+
+            <h3>
+                Contact Information
+            </h3>
+
+            <div>
+                <p>
+                    oyegokeamirah @gmail.com
+                </p>
+                <p>
+                    +234-80-603-93003 <br> +234-80-603-93003
+                </p>
+            </div>
+        </div>
+        <div class="contactForm">
+            <form>
+                <div class="halfInput">
+                    <div>
+                        <Label>
+                            First Name*
+                        </Label>
+                        <input type="text" required id="firstName">
+                    </div>
+
+                    <div>
+                        <Label>
+                            Last Name*
+                        </Label>
+                        <input type="text" required id="lastName">
+                    </div>
+                </div>
+
+                
+
+                <div class="halfInput">
+                    <div>
+                        <Label>
+                            Email*
+                        </Label>
+                        <input type="email" required id="email">
+                    </div>
+
+                    <div>
+                        <Label>
+                            Phone Number
+                        </Label>
+                        <input type="tel" id="phoneNumber">
+                    </div>
+                </div>
+
+                
+
+                <div class="fullInput">
+                    <Label>
+                        Subject
+                    </Label>
+                    <input type="text" id="subject">
+                </div>
+
+                <div class="fullInput">
+                    <Label>
+                        Type your message here
+                    </Label>
+                    <input type="text" id="message">
+                </div>
+
+                <button onclick="contact()" type="button">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-wrapper">
+            <div class="details">
+                <h2>
+                    Diamond Luxury
+                </h2>
+                <div class="footerContainer" >
+                    <div class="footerIcons">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="footerIcons">
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="footerIcons">
+                        <a href="https://twitter.com/AdejiFred">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <p>
+                    oyegokeamirah@gmail.com
+                </p>
+            </div>
+            <div class="links">
+                <div class="learn">
+                    <h4>
+                        LEARN MORE
+                    </h4>
+                    <a>
+                        Success stories
+                    </a>
+                    <a>
+                        Why Us
+                    </a>
+                    <a>
+                        How it works
+                    </a>
+                    <a>
+                        FAQs
+                    </a>
+                </div>
+                <div class="resource">
+                    <h4>
+                        RESOURCES
+                    </h4>
+                    <a>
+                        Help Center
+                    </a>
+                    <a>
+                        Blog
+                    </a>
+                    <a>
+                        Carrer
+                    </a>
+                    <a>
+                        Press center
+                    </a>
+                    <a>
+                        About
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/4b654629d7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="index.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration:1000,
+                delay:200,
+                once:false,
+                mirror:true
+            }
+        );
+    </script>
+</body>
+</html>
