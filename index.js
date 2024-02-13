@@ -219,11 +219,17 @@ const changeEvents = ()=>{
 };
 
 
-// const reverse = ()=>{
-//     emmma.setAttribute('style','display:block;');
-//     emma.setAttribute('style','display:none')
-// }
 
-// add
-// remove
-// toggle
+const contact = ()=>{
+    const fullName = document.getElementById('firstName').value + " " + document.getElementById('lastName').value
+    const email = document.getElementById('email').value 
+    const phoneNumber = document.getElementById('phoneNumber').value 
+    const subject = document.getElementById('subject').value 
+    const message = document.getElementById('message').value 
+
+    const body = `Fullname: ${fullName}\n Phone Number: ${phoneNumber}\n Email: ${email} \n message: ${message}\n`
+
+    const link =`mailto:fredadejiemma99@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+
+    window.location.href = link;
+}
