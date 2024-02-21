@@ -43,7 +43,16 @@
         display: none;
     }
 }
-
+@media screen and (min-width:1000px) and (max-width:1250px){
+    .btn{
+        display: none;
+    }
+}
+@media screen and (min-width:1251px){
+    .btn{
+        display: flex;
+    }
+}
 @media screen and (min-width:1000px) {
     
     .mobile{
@@ -99,7 +108,7 @@
         font-size: 20px;
         text-align: center;
         cursor: pointer;
-        display: flex;
+        /* display: flex; */
         justify-content: center;
         align-items: center;
         gap: 5px;
